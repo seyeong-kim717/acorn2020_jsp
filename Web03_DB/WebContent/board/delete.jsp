@@ -8,5 +8,5 @@
 	BoardDao.getInstance().delete(num);
 	//리다일렉트 응답한다. (클라이언트에게 특정 경로로 요청을 다시 하라고 강요하기)
 	String cPath=request.getContextPath();
-	response.sendRedirect(cPath+"/board/list.jsp");
+	response.sendRedirect(cPath+"/funny/funny.jsp");
 %>    
